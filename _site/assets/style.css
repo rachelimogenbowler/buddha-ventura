@@ -315,7 +315,7 @@
 
   .banner,
   .banner-with-header {
-    background-image: url('/images/adventure.jpg');
+    background-image: url('/images/buddha-ventures-9.jpg');
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -345,7 +345,7 @@
   }
 
   .bg-image {
-    background-image: url('/images/adventure.jpg');
+    background-image: url('/images/buddha-ventures-2.jpg');
     background-size: cover;
     background-position: center;
     min-height: 10rem;
