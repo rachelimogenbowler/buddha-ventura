@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<section class="padded centered">
+
+  <h2 class="page-title"> {{page.title}}</h2>
+  <p class="padded-bottom-2"> {{page.description}}</p>
+
+    <div class="popup-gallery masonry">
+{% for image in page.images %}
+      <a class="item" href="{{image.image_path}}" title="{{image.description}}">
+        <img src='{{image.image_path}}'>
+      </a>
+{% endfor%}
+
+
+
+    </div>
+
+</section>
