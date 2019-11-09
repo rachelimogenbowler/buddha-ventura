@@ -34,6 +34,8 @@
   .padded   {  padding: 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
+  .padded-3 {  padding: 3rem;  }
+
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -43,6 +45,8 @@
   .dark-bg      {  background-color: rgb(90, 90, 95);     }
   .light-bg     {  background-color: rgb(240, 240, 245);  }
   .featured-bg  {  background-color: #ffeaa7;             }
+
+  .box {border: 2px solid rgb(90, 90, 95)}
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -299,8 +303,8 @@
 
   /* -- Footer -- */
 
-  footer .info {
-    padding-right: 3rem;
+  footer {
+    padding: 5%;
   }
 
   footer nav a {
@@ -311,11 +315,27 @@
     font-size: 1.2rem;
   }
 
+footer .fab {
+font-size: 3rem;
+padding: 9px;
+}
+.sub-footer {
+  background-color: rgb(230,230,235);
+  color: rgb(120,120,125);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.logo {
+max-width: 10rem;
+}
+
   /* BANNERS */
 
   .banner,
   .banner-with-header {
-    background-image: url('/images/buddha-ventures-9.jpg');
+    background-image: url('/images/buddha-ventura-9.jpg');
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -345,7 +365,7 @@
   }
 
   .bg-image {
-    background-image: url('/images/buddha-ventures-2.jpg');
+    background-image: url('/images/buddha-ventura-2.jpg');
     background-size: cover;
     background-position: center;
     min-height: 10rem;

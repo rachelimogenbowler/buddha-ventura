@@ -9,51 +9,31 @@ featured-image_path:
 <section class="padded">
   <h1 class="centered"> Latest on the blog </h1>
 
-  <div class="grid blog-loop">
-
-    {% for post in site.posts limit: 6 %}
-        {% include post-loop-item.html %}
-    {% endfor %}
-
-  </div>
-  <div class="centered">
-    <!-- This links to the archive of blog posts -->
-    <a href="/archive" class="button"> See More </a>
-  </div>
-</section>
-
-<section class="padded">
-  <h1 class="centered"> Alternative Display  </h1>
-
   <div class="blog-loop">
 
     {% for post in site.posts limit: 6 %}
-        {% include post-loop-item-2.html %}
+
+    <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
+    <div class="grid padded-2">
+      <div class="col-5_sm-12 grid">
+        <div class="bg-image col-12" style="background-image:url('{{post.image_path}}')"></div>
+      </div>
+      <div class="col-7_sm-12-middle padded">
+        <h2> {{post.title}} </h2>
+        <p> {{post.description}} </p>
+        <a class="button" href="{{post.url}}"> Read Post </a>
+      </div>
+    </div>
+
     {% endfor %}
 
   </div>
   <div class="centered">
     <!-- This links to the archive of blog posts -->
-    <a href="/archive" class="button"> See More </a>
+    <a href="/archive" class="button"> See More Posts</a>
   </div>
 </section>
 
-
-
-<!-- this section is an example of how we output the travel posts -->
-<section class="padded light-bg">
-  <h1 class="centered"> Latest travel posts  </h1>
-  <p class="centered"> This is how you add a list of blog posts from a particular category to one or your pages </p>
-
-  <div class="grid blog-loop">
-
-    {% for post in site.categories.travel limit: 6 %}
-        {% include post-loop-item.html %}
-    {% endfor %}
-
-  </div>
-  <div class="centered">
-    <!-- This links to the archive of blog posts -->
-    <a href="/archives/travel" class="button"> See More </a>
-  </div>
+<!-- ADD INSTAGRAM REEL HERE AND CONTACT -->
+<section class= "padded centered light-bg"> <h1> insert IG reel here </h1>
 </section>
