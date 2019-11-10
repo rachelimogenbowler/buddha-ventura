@@ -41,6 +41,7 @@
 
 <!-- our own custom stylesheet -->
 <link rel="stylesheet" href="/assets/style.css"/>
+<link rel="stylesheet" href="/assets/editor.css"/>
 
 <!-- Google Analytics -->
 
@@ -53,7 +54,7 @@
 
   <!-- This is your site header, you can replace this with whichever header you want to use -->
 
-<header class="grid">
+<header class="grid" id="top">
   <div class="col-4_sm-12-middle">
     <a href="/">
       <img class="logo" src="/images/BV-logo-bl.png">
@@ -152,7 +153,7 @@
 <div class="grid padded-1">
 
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/projects/iceland" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
@@ -160,11 +161,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/projects/le-maelstrom" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-1.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
@@ -172,11 +173,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/projects/thataussiebastedthatwontpayus" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-2.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
@@ -184,7 +185,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 </div>
@@ -194,37 +195,36 @@
 
 <!-- ABOUT US - SPLIT IMAGE TEXT SECTION -->
 
-<section class="grid light-bg">
-  <div class="col-6_sm-12">
-      <div class="___"> <img src='/images/buddha-ventura-couple-shot.png'> </div>
+<section class="grid light-bg" style="min-height:60vh">
+  <div class="col-6_sm-12 bg-image" style="background-image:url('/images/buddha-ventura-couple-shot.png')">
     </div>
 
-  <div class="col-6_sm-12-middle padded">
+  <div class="col-6_sm-12-middle padded light-bg">
     <h2 class="big-bold"> About Buddha ventura </h2>
     <p class="emphasis"> Little intro to click through to about page </p>
   </div>
 </section>
 
 <!-- SERVICES SECTION- TWO BOXES WITH A BUTTON TAKING TO SERVICES PAGE TOGGLE -->
-<section class="grid-spaceAround padded centered">
+<section class="grid-spaceAround padded centered max-1400">
   <div class="col-10_sm-12 padded-2">
     <h2 class="page-title"> Services </h2>
     <p class="padded-bottom-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
   </div>
 
-  <div class="col-5 padded-2 grid">
-    <div class=" col-12 box padded">
+  <div class="col-5_xs-12 padded-2 grid">
+    <div class=" col-12 box light-text padded">
     <h2> Do you want awesome visual content? </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, est laborum. </p>
-    <p> <a class="button" href="#"> see more </a> </p>
+    <p> <a class="button inverted" href="/services"> see more </a> </p>
   </div>
 
   </div>
 
-  <div class="col-5 padded-2 grid">
-    <div class=" col-12 box padded"> <h2> Do you want to reduce your carbon footprint? </h2>
+  <div class="col-5_xs-12 padded-2 grid">
+    <div class=" col-12 box  light-text padded"> <h2> Do you want to reduce your carbon footprint? </h2>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
-    <p> <a class="button" href="#"> see more </a> </p>
+    <p> <a class="button inverted" href="/services"> see more </a> </p>
   </div>
   </div>
 
@@ -247,19 +247,19 @@
 <div class="grid padded-1">
 
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/2019/fourth-post" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-4.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3> Fourth Blog Post </h3>
+            <h3> The Ultimate Guide to Iceland </h3>
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/2019/third-post" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
@@ -267,11 +267,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 
-    <div class="col-4_sm-12 padded-1">
+    <a href="/2019/second-post" class="col-4_sm-12 padded-1">
       <div class="hover-container" style="background-image: url('/images/buddha-ventura-2.jpg')" >
         <div class="hover-overlay">
           <div class="hover-inner">
@@ -279,7 +279,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
 
   
 </div>
@@ -287,17 +287,22 @@
 </section>
 
 <!-- ADD INSTAGRAM REEL HERE AND CONTACT -->
-<section class= "padded centered light-bg"> <h1> insert IG reel here </h1>
+<section class= "centered light-bg">
+  <h2 class="padded-2"> Let's Connect </h2>
+  <!-- SnapWidget -->
+  <!-- <iframe src="https://snapwidget.com/embed/757958" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:auto"></iframe> -->
+<img src="/images/ig-reel.png" style="width:100%;">
+<!-- <iframe src="https://snapwidget.com/embed/757958" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:auto"></iframe> -->
 </section>
 
 <!-- CONTACT FORM SECTION -->
 
-<section class="grid padded">
+<section class="grid-center padded">
   <div class="col-12 centered">
     <h2> Get In Touch </h2>
 
   </div>
-  <div class="col-12 padded">
+  <div class="col-8_md-12 padded">
     <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
       <div class="col-6_sm-12">
         <input type="text" name="name" placeholder="Your Name">
@@ -315,7 +320,16 @@
 
 
   
+
+
+
 <footer class="centered light-bg">
+
+  <a href="#top" class="scroll-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
   <nav class="padded-1">
     <a target="_blank" href="https://www.instagram.com/buddha.ventura/">
       <i class="fab fa-instagram"></i>
@@ -327,6 +341,7 @@
       <i class="fab fa-youtube"></i>
     </a>
   </nav>
+
 
   <img class="logo" src="/images/BV-logo-bl.png">
 

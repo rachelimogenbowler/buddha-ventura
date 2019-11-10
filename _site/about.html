@@ -41,6 +41,7 @@
 
 <!-- our own custom stylesheet -->
 <link rel="stylesheet" href="/assets/style.css"/>
+<link rel="stylesheet" href="/assets/editor.css"/>
 
 <!-- Google Analytics -->
 
@@ -53,7 +54,7 @@
 
   <!-- This is your site header, you can replace this with whichever header you want to use -->
 
-<header class="grid">
+<header class="grid" id="top">
   <div class="col-4_sm-12-middle">
     <a href="/">
       <img class="logo" src="/images/BV-logo-bl.png">
@@ -132,33 +133,32 @@
 
   <!-- PAGE TITLE -->
 
-<section class="padded centered">
-<h1> About Buddha Ventura </h1>
-</section>
+
 
 <!-- IMAGES OF J&J -->
 
-<section class="grid">
+<section class="grid-center padded">
 
-  <div class="col-6 padded"
-    <div class="box"> <img src='/images/buddha-ventura-about-jess.jpg'> </div>
+  <div class=" col-12 padded-2 centered">
+    <h1> About Buddha Ventura </h1>
+  </div>
+
+  <div class="col-5 padded-2">
+    <img src='/images/buddha-ventura-about-jess.jpg'>
  </div>
 
- <div class="col-6 padded"
-   <div class="box"> <img src='/images/buddha-ventura-about-jona.jpg'> </div>
+ <div class="col-5 padded-2">
+    <img src='/images/buddha-ventura-about-jona.jpg'>
  </div>
 
-</section>
+  <div class="col-10 padded-2 centered">
+    <p> paragraphs about J&J - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<!-- PARAGRAPH FOR THEM TO SHARE ABOUT -->
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<section class="padded centered">
-<p> paragraphs about J&J - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
 
 </section>
 
@@ -169,12 +169,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <!-- CONTACT FORM -->
 
-<section class="grid padded">
-  <div class="col-12 centered">
+<section class="grid-center padded">
+  <div class="col-8 centered">
     <h2> Get In Touch </h2>
 
   </div>
-  <div class="col-12 padded">
+  <div class="col-8_sm-12 padded">
     <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
       <div class="col-6_sm-12">
         <input type="text" name="name" placeholder="Your Name">
@@ -192,7 +192,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
   
+
+
+
 <footer class="centered light-bg">
+
+  <a href="#top" class="scroll-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
   <nav class="padded-1">
     <a target="_blank" href="https://www.instagram.com/buddha.ventura/">
       <i class="fab fa-instagram"></i>
@@ -204,6 +213,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
       <i class="fab fa-youtube"></i>
     </a>
   </nav>
+
 
   <img class="logo" src="/images/BV-logo-bl.png">
 

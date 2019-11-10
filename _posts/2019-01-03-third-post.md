@@ -8,7 +8,6 @@ image_path: /images/buddha-ventura-3.jpg
 categories:
   - travel
   - wine
-  - Dan's test category
 author: Tina May
 ---
 

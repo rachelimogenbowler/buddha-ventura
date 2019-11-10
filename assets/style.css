@@ -18,6 +18,7 @@
   body {
     font-family: 'Noto Sans HK', sans-serif;
     color: rgb(60,60,65);
+    position: relative;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -40,17 +41,38 @@
 
   .capped-width { width: 80%; margin: auto;}
 
+  .bg-image {
+    background-image: url('/images/buddha-ventura-2.jpg'); /* placeholder image */
+    background-size: cover;
+    background-position: center;
+    min-height: 10rem;
+  }
+
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
+
+  .max-1200 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.max-1400 {
+  max-width: 1400px;
+  margin: auto;
+}
 
   .dark-bg      {  background-color: rgb(90, 90, 95);     }
   .light-bg     {  background-color: rgb(240, 240, 245);  }
   .featured-bg  {  background-color: #ffeaa7;             }
 
-  .box {border: 2px solid rgb(90, 90, 95)}
+  .box {
+      background-color: rgb(90,90,95);
+      margin-bottom: 1rem;
+  }
 
   .light-text   { color: white; }
-  .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+  .flex-flip:nth-child(2n),
+  .odd {  flex-direction: row-reverse; }
 
   /* General typography */
 
@@ -329,8 +351,18 @@ padding: 9px;
   font-size: 0.9rem;
 }
 
+.scroll-to-top i {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
 .logo {
 max-width: 10rem;
+}
+
+footer .logo {
+  display: block;
+  margin: auto;
 }
 
   /* BANNERS */
@@ -340,7 +372,7 @@ max-width: 10rem;
     background-image: url('/images/buddha-ventura-9.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 60vh;
   }
 
   .fixed {
@@ -351,6 +383,33 @@ max-width: 10rem;
     padding-top: 6rem;
     min-height: 100vh;
   }
+
+  .project-banner-link {
+    transition: all 0.5s;
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+  }
+
+  .project-banner-link .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.5s;
+}
+  .project-banner-link > .inner {
+      position: relative;
+      z-index: 5
+    }
+
+    .project-banner-link .overlay:hover {
+      background-color: rgba(0,0,10,0.7);
+    }
+
 
   .absolute-header {
     position: absolute;
@@ -366,12 +425,7 @@ max-width: 10rem;
     background-position: left;
   }
 
-  .bg-image {
-    background-image: url('/images/buddha-ventura-2.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 10rem;
-  }
+
   /* Hover grid */
 
   .hover-container {
@@ -610,9 +664,8 @@ max-width: 10rem;
 }
 
 .masonry .item { /* Masonry bricks or child elements */
-  background-color: #eee;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: 100%;
 }
 
@@ -733,6 +786,7 @@ max-width: 10rem;
   .flex-flip{
     flex-direction: row;
   }
+
 
 } /* end media query */
 

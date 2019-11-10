@@ -1,5 +1,28 @@
 ---
 layout: default
+services:
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-1.jpg
+  - title: Videography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-2.jpg
+  - title: Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-3.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-4.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-5.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-6.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-7.jpg
+
 ---
 
 <section class="padded">
@@ -7,51 +30,44 @@ layout: default
   <p class="centered"> We provide a collection of services... </p>
 </section>
 
-<section class="light-bg">
-  <div class="grid  flex-flip">
-    <div class="col-6_sm-12 bg-image">
-    </div>
-    <div class="col-6_sm-12-middle padded">
-      <h3> Video Production </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> > </a>
-    </div>
-  </div>
-  <div class="grid flex-flip">
-    <div class="col-6_sm-12 bg-image">
-    </div>
-    <div class="col-6_sm-12-middle padded">
-      <h3> Photography </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> > </a>
-    </div>
-  </div>
-  <div class="grid  flex-flip">
-    <div class="col-6_sm-12" style="background-image:url/buddha-ventura-4">
-    </div>
-    <div class="col-6_sm-12-middle padded">
-      <h3> Content Creation </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> > </a>
-    </div>
-  </div>
-  <div class="grid flex-flip">
-    <div class="col-6_sm-12 bg-image">
-    </div>
-    <div class="col-6_sm-12-middle padded">
-      <h3> Social Media Marketing </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> > </a>
-    </div>
-  </div>
-  <div class="grid  flex-flip">
-    <div class="col-6_sm-12 bg-image">
-    </div>
-    <div class="col-6_sm-12-middle padded">
-      <h3> Eco-sustainable Consulting </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> > </a>
-    </div>
-  </div>
+<section>
 
+
+  {% for service in page.services %}
+
+  <div class="max-1200 padded-2">
+    <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
+      <div class="col-6_sm-12 bg-image tall-50" style="background-image:url('{{service.image_path}}')">
+      </div>
+      <div class="col-6_sm-12-middle padded">
+        <h3> {{service.title}} </h3>
+        <p> {{service.description}} </p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</section>
+
+<!--  CONTACT FORM -->
+
+<section class="grid padded">
+  <div class="col-12 centered">
+    <h2> Let's Work Together! </h2>
+
+  </div>
+  <div class="col-12 padded">
+    <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+      <div class="col-6_sm-12">
+        <input type="text" name="name" placeholder="Your Name">
+      </div>
+      <div class="col-6_sm-12">
+        <input type="email" name="_replyto" placeholder="Your Email">
+      </div>
+      <div class="col-12">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
+  </div>
 </section>

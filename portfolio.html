@@ -9,17 +9,36 @@ layout: default
   {% for project in site.projects limit: 6 %}
 
   <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
-  <div class="grid padded-2">
-    <div class="col-5_sm-12 grid">
-      <div class="bg-image col-12" style="background-image:url('{{project.image_path}}')"></div>
-    </div>
-    <div class="col-7_sm-12-middle padded">
-      <h2> {{project.title}} </h2>
-      <p> {{project.description}} </p>
-      <a class="button" href="{{project.url}}"> Read Post </a>
-    </div>
+  <div class="padded-1 max-1400">
+    <a href="{{project.url}}" class="project-banner-link banner grid-bottom padded-1" style="background-image:url('{{project.image_path}}')">
+      <div class="col-12 inner">
+        <h2> {{project.title}} </h2>
+      </div>
+      <div class="overlay"></div>
+    </a>
   </div>
 
   {% endfor %}
 
 </div>
+
+<section class="grid padded">
+  <div class="col-12 centered">
+    <h2> Let's Work Together! </h2>
+
+  </div>
+  <div class="col-12 padded">
+    <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+      <div class="col-6_sm-12">
+        <input type="text" name="name" placeholder="Your Name">
+      </div>
+      <div class="col-6_sm-12">
+        <input type="email" name="_replyto" placeholder="Your Email">
+      </div>
+      <div class="col-12">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
+  </div>
+</section>

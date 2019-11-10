@@ -41,6 +41,7 @@
 
 <!-- our own custom stylesheet -->
 <link rel="stylesheet" href="/assets/style.css"/>
+<link rel="stylesheet" href="/assets/editor.css"/>
 
 <!-- Google Analytics -->
 
@@ -53,7 +54,7 @@
 
   <!-- This is your site header, you can replace this with whichever header you want to use -->
 
-<header class="grid">
+<header class="grid" id="top">
   <div class="col-4_sm-12-middle">
     <a href="/">
       <img class="logo" src="/images/BV-logo-bl.png">
@@ -136,12 +137,12 @@
   </div>
 </section>
 
-<section class="grid padded">
+<section class="grid-center  padded">
   <div class="col-12 centered">
     <h3> We would love to hear from you </h3>
 
   </div>
-  <div class="col-12 padded">
+  <div class="col-8_md-12 padded">
     <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
       <div class="col-6_sm-12">
         <input type="text" name="name" placeholder="Your Name">
@@ -157,11 +158,26 @@
   </div>
 </section>
 
-<iframe src="https://snapwidget.com/embed/757958" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:1600px; height:1600px"></iframe>
+<!-- ADD INSTAGRAM REEL HERE AND CONTACT -->
+<section class= "centered light-bg">
+  <h2 class="padded-2"> Let's Connect </h2>
+  <!-- SnapWidget -->
+  <!-- <iframe src="https://snapwidget.com/embed/757958" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:auto"></iframe> -->
+<img src="/images/ig-reel.png" style="width:100%;">
+</section>
 
 
   
+
+
+
 <footer class="centered light-bg">
+
+  <a href="#top" class="scroll-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
   <nav class="padded-1">
     <a target="_blank" href="https://www.instagram.com/buddha.ventura/">
       <i class="fab fa-instagram"></i>
@@ -173,6 +189,7 @@
       <i class="fab fa-youtube"></i>
     </a>
   </nav>
+
 
   <img class="logo" src="/images/BV-logo-bl.png">
 
