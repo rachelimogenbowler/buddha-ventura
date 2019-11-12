@@ -26,7 +26,14 @@
   [class*=grid] {   margin: 0;  }
   [class*=col]  {   padding: 0; }
 
-
+/* COLOUR SCHEME:
+DARK BLUE/GREY (fonts etc): #161d21
+MID: #364550
+MID- LIGHT: #5e788a
+LIGHT- MID (ACCENT): #7c95a6
+LIGHT (ACCENT): #abbbc6
+LIGHTEST: #f1f4f6
+ */
   /* ------------- Utility Classes --------------  */
 
   .left     {  text-align: left;     }
@@ -63,7 +70,7 @@
 }
 
   .dark-bg      {  background-color: #2e3b43;     }
-  .light-bg     {  background-color: #f1f3f5;  }
+  .light-bg     {  background-color: #f1f4f6;  }
   .featured-bg  {  background-color: #ffeaa7;             }
 
   .box {
@@ -174,7 +181,7 @@ margin-bottom: 4rem;
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: #161d21;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -205,8 +212,8 @@ margin-bottom: 4rem;
   }
 
   .button-solid:hover {
-    background-color: #2e3b43;
-    border-color: #2e3b43;
+    background-color: #161d21;
+    border-color: #161d21;
   }
 
   .arrow { /* this is the arrow button */
@@ -225,8 +232,8 @@ margin-bottom: 4rem;
   }
 
     .arrow:hover {
-      color: rgb(60, 60, 60);
-      border-color: rgb(60, 60, 60);
+      color: #161d21;
+      border-color: #161d21;
     }
 
 
@@ -333,7 +340,7 @@ margin-bottom: 4rem;
     left:0;
     right:0;
     bottom: 0;
-    background-color: rgb(60,60,65);
+    background-color: #161d21;
     padding: 10%;
   }
   .mobile-menu a {
@@ -423,7 +430,7 @@ footer .logo {
     }
 
     .project-banner-link .overlay:hover {
-      background-color: rgba(0,0,10,0.7);
+      background-color: #161d21;
     }
 
 
@@ -651,7 +658,7 @@ footer .logo {
   .clickable-box .overlay {
     min-height:10rem;
     padding: 5rem 2rem;
-    background-color: rgba(0,0,10,0.6);
+    background-color: 161d21;
     color: white;
   }
 
