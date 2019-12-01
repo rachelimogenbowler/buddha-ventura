@@ -18,7 +18,7 @@
   body {
     /* font-family: 'Noto Sans HK', sans-serif; */
     font-family: 'minerva-modern', sans-serif;
-    color: #263138;
+    color: #36454f;
     position: relative;
   }
 
@@ -27,7 +27,7 @@
   [class*=col]  {   padding: 0; }
 
 /* COLOUR SCHEME:
-DARK BLUE/GREY (fonts etc): #161d21
+DARK BLUE/GREY (fonts etc): #36454f
 MID: #364550
 MID- LIGHT: #5e788a
 LIGHT- MID (ACCENT): #7c95a6
@@ -45,6 +45,7 @@ LIGHTEST: #f1f4f6
   .padded-2 {  padding: 2rem;  }
   .padded-3 {  padding: 3rem;  }
   .padded-bottom-2 { padding-bottom: 2rem; }
+  .no-padding-top {padding-top: 0;}
 
 
   .capped-width { width: 80%; margin: auto;}
@@ -69,16 +70,17 @@ LIGHTEST: #f1f4f6
   margin: auto;
 }
 
-  .dark-bg      {  background-color: #2e3b43;     }
-  .light-bg     {  background-color: #f1f4f6;  }
-  .featured-bg  {  background-color: #ffeaa7;             }
+  .dark-bg      {  background-color: #36454f; }
+  .light-bg     {  background-color: #ececec; }
+  .featured-bg  {  background-color: #996666; }
 
   .box {
-      background-color: #2e3b43;
+      background-color:#36454f;
       margin-bottom: 1rem;
   }
 
   .light-text   { color: white; }
+  .featured-text { color: #996666 }
   .flex-flip:nth-child(2n),
   .odd {  flex-direction: row-reverse; }
 
@@ -181,7 +183,7 @@ margin-bottom: 4rem;
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #161d21;
+    color: #36454f;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -212,8 +214,8 @@ margin-bottom: 4rem;
   }
 
   .button-solid:hover {
-    background-color: #161d21;
-    border-color: #161d21;
+    background-color: #36454f;
+    border-color: #36454f;
   }
 
   .arrow { /* this is the arrow button */
@@ -232,8 +234,8 @@ margin-bottom: 4rem;
   }
 
     .arrow:hover {
-      color: #161d21;
-      border-color: #161d21;
+      color: #36454f;
+      border-color: #36454f;
     }
 
 
@@ -340,7 +342,7 @@ margin-bottom: 4rem;
     left:0;
     right:0;
     bottom: 0;
-    background-color: #161d21;
+    background-color: #36454f;
     padding: 10%;
   }
   .mobile-menu a {
@@ -367,8 +369,8 @@ font-size: 3rem;
 padding: 9px;
 }
 .sub-footer {
-  background-color: rgb(230,230,235);
-  color: rgb(120,120,125);
+  background-color: #ececec;
+  color: #36454f;
   text-align: center;
   padding: 0.5rem;
   font-size: 0.9rem;
@@ -430,7 +432,7 @@ footer .logo {
     }
 
     .project-banner-link .overlay:hover {
-      background-color: #161d21;
+      background-color: #36454f;
     }
 
 
@@ -534,7 +536,7 @@ footer .logo {
   }
 
   .sidebar > div {
-    border: 1px solid rgb(245,245,245);
+    border: 2px solid #ececec;
     padding: 2rem;
     margin: 2vh 0;
   }
