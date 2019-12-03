@@ -1,5 +1,5 @@
 ---
 title: Archive of Sustainability Posts by Blog Name
-category: Sustainability
+category: sustainability
 layout: archive
 ---

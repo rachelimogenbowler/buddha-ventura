@@ -368,13 +368,23 @@ footer .fab {
 font-size: 3rem;
 padding: 9px;
 }
-.sub-footer {
+
+.sub-footer {margin: 0;}
+
+.sub-footer a {
   background-color: #ececec;
   color: #36454f;
   text-align: center;
+  text-decoration: none;
   padding: 0.5rem;
   font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 }
+.sub-footer img{width: 49px;
+    transform: translate(8px, -2.2px);}
 
 .scroll-to-top i {
   padding: 1rem;
