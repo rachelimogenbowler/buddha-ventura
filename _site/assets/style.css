@@ -17,7 +17,7 @@
 
   body {
     /* font-family: 'Noto Sans HK', sans-serif; */
-    font-family: 'minerva-modern', sans-serif;
+    font-family: minion-pro, serif;
     color: #36454f;
     position: relative;
   }
@@ -194,7 +194,7 @@ margin-bottom: 4rem;
   }
 
   .button:hover {
-    color: #abbbc6;
+    color: #ace5ee;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -442,7 +442,7 @@ footer .logo {
     }
 
     .project-banner-link .overlay:hover {
-      background-color: #36454f;
+      background-color: rgba(54, 69, 79,0.8);
     }
 
 
