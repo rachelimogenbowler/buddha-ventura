@@ -17,7 +17,7 @@
 
   body {
     /* font-family: 'Noto Sans HK', sans-serif; */
-    font-family: minion-pro, serif;
+    font-family: 'muli';
     color: #36454f;
     position: relative;
   }
@@ -107,7 +107,6 @@ LIGHTEST: #f1f4f6
 
   p, ul {
      margin-bottom: 0.8rem;
-    font-family: 'muli', sans-serif;
     font-weight: 300;
     line-height: 1.5;
   }
