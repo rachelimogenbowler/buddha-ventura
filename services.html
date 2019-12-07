@@ -25,7 +25,7 @@ services:
 
 ---
 
-<section class="padded">
+<section class="padded editable">
   <h1 class="centered page-title"> Services </h1>
   <p class="centered"> We provide a collection of services... </p>
 </section>
@@ -37,11 +37,11 @@ services:
 
   <div class="max-1200 padded-2">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
-      <div class="col-6_sm-12 bg-image tall-50" style="background-image:url('{{service.image_path}}')">
+      <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
       </div>
       <div class="col-6_sm-12-middle padded">
-        <h3> {{service.title}} </h3>
-        <p> {{service.description}} </p>
+        <h3 editable> {{service.title}} </h3>
+        <p editable> {{service.description}} </p>
       </div>
     </div>
   </div>
@@ -52,8 +52,8 @@ services:
 <!-------- Hover Grid --------->
 
 <section class="padded centered">
-  <h2> Meet the Team </h2>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <h2 editable> Meet the Team </h2>
+  <p editable> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
   <div class="grid padded-1">
     <div class="col-3_sm-12 padded-1">
       <div class="hover-container" style="background-image:url('/images/MrBeanI.jpg')">
