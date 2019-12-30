@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog Page
+meta-description:
+meta-keywords:
+featured-image_path:
+---
+
+<section class="padded">
+  <h1 class="centered page-title editable"> Latest on the blog </h1>
+
+  <div class="blog-loop">
+
+    {% for post in site.posts limit: 6 %}
+
+    <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
+    <div class="grid padded-2">
+      <div class="col-5_sm-12 grid">
+        <div class="bg-image col-12" style="background-image:url('{{post.image_path}}')"></div>
+      </div>
+      <div class="col-7_sm-12-middle padded">
+        <h2> {{post.title}} </h2>
+        <p> {{post.description}} </p>
+        <a class="button" href="{{post.url}}"> Read Post </a>
+      </div>
+    </div>
+
+    {% endfor %}
+
+    <div class="padded-1">
+    </div>
+
+  </div>
+  <div class="centered">
+    <!-- This links to the archive of blog posts -->
+    <a href="/archive" class="button"> See More Posts</a>
+  </div>
+</section>
+
+<!-- INSTAGRAM LightWidget WIDGET -->
+<section>
+  <div class="centered padded-2">
+  <h3>Follow along on Instagram</h3>
+  </div>
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a901f86f9eb2559192155ec054dfd657.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+</section>
