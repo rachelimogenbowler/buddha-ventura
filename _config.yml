@@ -1,0 +1,11 @@
+permalink: /:year/:title
+
+collections:
+  archives:
+    output: true
+  projects:
+    output: true
+
+_options:
+  content:
+    styles: /assets/editor.css

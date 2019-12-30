@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<section class="padded">
+<h1 class="page-title centered editable"> Projects </h1>
+
+<div class="blog-loop">
+
+  {% for project in site.projects limit: 6 %}
+
+  <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
+  <div class="padded-1 max-1400">
+    <a href="{{project.url}}" class="project-banner-link banner grid-bottom padded-1" style="background-image:url('{{project.image_path}}')">
+      <div class="col-12 inner">
+        <h2> {{project.title}} </h2>
+      </div>
+      <div class="overlay"></div>
+    </a>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+</section>
+
+<!-- INSTAGRAM LightWidget WIDGET -->
+<section>
+  <div class="centered padded-2">
+  <h3>Follow along on Instagram</h3>
+  </div>
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a901f86f9eb2559192155ec054dfd657.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+</section>
+
+<section class="grid padded">
+  <div class="col-12 centered">
+    <h2> Let's Work Together! </h2>
+
+  </div>
+  <div class="col-12 padded">
+    <form class="grid-center" action="https://formspree.io/contactbuddhaventura@gmail.com" method="POST">
+      <div class="col-6_sm-12">
+        <input type="text" name="name" placeholder="Your Name">
+      </div>
+      <div class="col-6_sm-12">
+        <input type="email" name="_replyto" placeholder="Your Email">
+      </div>
+      <div class="col-12">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: blog
+---
+
+<section class="padded">
+  <h1 class="centered"> Latest on the blog </h1>
+  <p class="centered"> This page will display the 50 latest blog posts. </p>
+
+  <div class="blog-loop">
+
+    {% for post in site.posts limit:20 %}
+
+    <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
+    <div class="grid padded-2">
+      <div class="col-5_sm-12 grid">
+        <div class="bg-image col-12" style="background-image:url('{{post.image_path}}')"></div>
+      </div>
+      <div class="col-7_sm-12-middle padded">
+        <h2> {{post.title}} </h2>
+        <p> {{post.description}} </p>
+        <a class="button" href="{{post.url}}"> Read Post </a>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>

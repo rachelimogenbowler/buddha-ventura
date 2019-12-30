@@ -1,0 +1,122 @@
+---
+layout: default
+services:
+  - title: Video Production
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-1.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-2.jpg
+  - title: Content Creation
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-3.jpg
+  - title: Social Media Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-4.jpg
+  - title: Eco-Sustainable Consulting
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-5.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-6.jpg
+  - title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    image_path: /images/buddha-ventura-7.jpg
+
+---
+
+<section class="padded editable">
+  <h1 class="centered page-title"> Services </h1>
+  <p class="centered"> We provide a collection of services... </p>
+</section>
+
+<section>
+
+
+  {% for service in page.services %}
+
+  <div class="max-1200 padded-2">
+    <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
+      <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
+      </div>
+      <div class="col-6_sm-12-middle padded">
+        <h3 class="editable"> {{service.title}} </h3>
+        <p class="editable"> {{service.description}} </p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</section>
+
+<!-------- Hover Grid --------->
+
+<section class="padded centered">
+  <h2 class="editable"> Meet the Team </h2>
+  <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <div class="grid padded-1">
+    <div class="col-3_sm-12 padded-1">
+      <div class="hover-container editable" style="background-image:url('/images/MrBeanI.jpg')">
+        <div class="hover-overlay">
+          <div class="hover-inner">
+            <h3 class="editable"> Jona </h3>
+            <p class="editable"> Co-founder
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3_sm-12 padded-1">
+      <div class="hover-container editable" style="background-image:url('/images/MrBeanII.jpg')">
+        <div class="hover-overlay">
+          <div class="hover-inner">
+            <h3 class="editable"> Teddy </h3>
+            <p class="editable"> Photographer </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3_sm-12 padded-1">
+      <div class="hover-container editable" style="background-image:url('/images/MrBeanIII.jpg')">
+        <div class="hover-overlay">
+          <div class="hover-inner">
+            <h3 class="editable"> Jess </h3>
+            <p class="editable"> Co-founder </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3_sm-12 padded-1">
+      <div class="hover-container editable" style="background-image:url('/images/MrBeanIV.jpg')">
+        <div class="hover-overlay">
+          <div class="hover-inner">
+            <h3 class="editable"> Mr Bean </h3>
+            <p class="editable"> Videographer </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<!--  CONTACT FORM -->
+
+<section class="grid padded">
+  <div class="col-12 centered">
+    <h2> Let's Work Together! </h2>
+
+  </div>
+  <div class="col-12 padded">
+    <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+      <div class="col-6_sm-12">
+        <input type="text" name="name" placeholder="Your Name">
+      </div>
+      <div class="col-6_sm-12">
+        <input type="email" name="_replyto" placeholder="Your Email">
+      </div>
+      <div class="col-12">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
+  </div>
+</section>
