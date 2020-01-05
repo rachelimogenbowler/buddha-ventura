@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 title: Iceland
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -9,20 +9,4 @@ description: >-
 meta-description:
 meta-keywords:
 image_path: /images/buddha-ventura-3.jpg
-youtube: true
-youtube_id: S75WjYW8HXI
-images:
-  - image_path: /images/buddha-ventura-1.jpg
-    description: this is where you write the caption
-  - image_path: /images/buddha-ventura-8.jpg
-    description: this is where you write the caption
-  - image_path: /images/buddha-ventura-6.jpg
-    description: this is where you write the caption
-  - image_path: /images/buddha-ventura-3.jpg
-    description: this is where you write the caption
-  - image_path: /images/buddha-ventura-5.jpg
-    description: this is where you write the caption
-  - image_path: /images/buddha-ventura-7.jpg
-    description: this is where you write the caption
-_hide_content: true
 ---
