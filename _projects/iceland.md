@@ -22,10 +22,5 @@ images:
     description: this is where you write the caption
   - image_path: /images/buddha-ventura-7.jpg
     description: this is where you write the caption
+_hide_content: true
 ---
-
-![](/uploads/1a6875632231b56ebc8b1e57a87d19b3.jpg){: width="564" height="1002"}<!-- <img  class="one-half" src="/images/buddha-ventura-1.jpg" alt="" >
-<img  class="one-half" src="/images/buddha-ventura-2.jpg" alt="" >
-<img  class="one-third" src="/images/buddha-ventura-3.jpg" alt="" >
-<img  class="one-third" src="/images/buddha-ventura-4.jpg" alt="" >
-<img  class="one-third" src="/images/buddha-ventura-5.jpg" alt="" > -->
