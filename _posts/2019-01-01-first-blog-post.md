@@ -19,4 +19,4 @@ Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua
 
 &nbsp;
 
-![](/uploads/46885e299401ec61498d572ffbb412af.jpg){: width="564" height="1002"}
+![](/uploads/46885e299401ec61498d572ffbb412af.jpg){: .one-half width="564" height="1002"}![](/uploads/1a6875632231b56ebc8b1e57a87d19b3-1.jpg){: .one-half width="564" height="1002"}
