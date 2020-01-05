@@ -5,6 +5,29 @@ collections:
     output: true
   projects:
     output: true
+    _hide_content: true
+    
+    
+defaults:
+  - scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "archive"
+  - scope:
+      path: ""
+      type: "project"
+    values:
+      layout: "gallery"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 _options:
   content:
