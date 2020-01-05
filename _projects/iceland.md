@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Iceland
 meta-description:
 meta-keywords:
