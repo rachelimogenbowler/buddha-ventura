@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: project
 title: The North Face
 meta-description:
 meta-keywords:
