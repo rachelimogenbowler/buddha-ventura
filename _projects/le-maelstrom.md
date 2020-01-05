@@ -4,6 +4,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 meta-description:
 meta-keywords:
 image_path: /images/buddha-ventura-1.jpg
+youtube: false
+youtube_id: S75WjYW8HXI
 images:
 - image_path: /images/buddha-ventura-1.jpg
   description: this is where you write the caption
