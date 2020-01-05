@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!-- this is your post layout, each of your individual blog post pages will use this layout. -->
+<section class="grid padded">
+
+  <div class="col-8_sm-12 post-body padded-1">
+      <h1> {{page.title}} </h1>
+
+      <p class="post-meta">  | Written by {{page.author}}</p>
+
+      <!-- this automatically outputs each category tag -->
+      <p>
+        {% for category in page.categories %}
+          <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
+        {% endfor %}
+      </p> <!-- end categories -->
+
+      <img class="full-width" src="{{page.image_path}}">
+
+      {{content}}
+
+      {% include social-share.html %}
+
+
+      <div class="prev-next">
+                  {% if page.previous.url %}
+                    <a class="button" href="{{page.previous.url}}">&laquo;<span> {{page.previous.title}}</span></a>
+                  {% endif %}
+                  {% if page.next.url %}
+                    <a class="button" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+                  {% endif %}
+            </div>
+
+
+  </div>
+
+  <div class="col-3_sm-12 padded-2 mob-hide sidebar">
+
+      <!-- sidebar box 1 -->
+      <div>
+        <h3 class="centered"> Hey there! </h3>
+          <img src="/images/Buddha-Ventura-Couple-Shot-2.jpeg" class="padded" >
+        <p class="centered"> We are Buddha Ventura and this is a little bit about us Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <p class="centered"> <a class="button" href="/about"> More About Us </a> </p>
+      </div>
+
+      <!-- sidebar box 2 -->
+      <div>
+        <p> You could put anything you want in here, like links to your social or featured articles, a newsletter signup, etc </p>
+      </div>
+
+      <!-- sidebar box 3 -->
+      <div>
+        <h3> Categories </h3>
+
+        <!-- this will output a list of all the categories on your site -->
+        {% for category in site.categories %}
+          <a href="/archives/{{category[0] | slugify }}" class="category"> {{category[0]}} </a>
+        {% endfor %}
+
+      </div>
+
+  </div><!-- close sidebar -->
+</section>
