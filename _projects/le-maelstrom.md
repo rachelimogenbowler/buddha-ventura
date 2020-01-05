@@ -5,21 +5,4 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 meta-description:
 meta-keywords:
 image_path: /images/buddha-ventura-1.jpg
-youtube: false
-youtube_id: S75WjYW8HXI
-images:
-- image_path: /images/buddha-ventura-1.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-2.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-3.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-4.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-6.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-5.jpg
-  description: this is where you write the caption
-- image_path: /images/buddha-ventura-7.jpg
-  description: this is where you write the caption
 ---
