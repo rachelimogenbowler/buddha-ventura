@@ -25,3 +25,5 @@ author: Jess and Jona
 &nbsp;
 
 **![](/uploads/7e6775032cbf387468ac2805779969cd.jpg){: .one-third width="564" height="1002"}![](/uploads/01a489989756d9ceff810f7c5c6121d82.jpg){: .one-third width="564" height="1002"}![](/uploads/b9f381502f0413b9f3dce4601535785e3.jpg){: .one-third width="564" height="1002"}**
+
+**![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4////fwAJ+wP9BUNFygAAAABJRU5ErkJggg==){: .cms-image-placeholder}![](/images/buddha-ventura-15.jpg){: width="5184" height="3456"}**
