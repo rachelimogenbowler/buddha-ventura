@@ -5,7 +5,6 @@ collections:
     output: true
   projects:
     output: true
-    _hide_content: true
     
     
 defaults:
@@ -18,7 +17,7 @@ defaults:
       path: ""
       type: "project"
     values:
-      layout: "gallery"
+      layout: "project"
   - scope:
       path: ""
       type: "posts"
