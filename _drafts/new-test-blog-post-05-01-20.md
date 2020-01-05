@@ -8,7 +8,7 @@ description: >-
   consequat.
 meta-description:
 meta-keywords:
-image_path: /images/buddha-ventura-4.jpg
+image_path: /images/buddha-ventura-5.jpg
 categories:
   - sustainability
 author: Jess and Jona
