@@ -442,6 +442,7 @@ footer .logo {
     color: white;
     display: block;
     position: relative;
+    background-color: rgba(54, 69, 79,0.8);
   }
 
   .project-banner-link .overlay {
