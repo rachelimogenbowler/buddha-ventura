@@ -1,5 +1,4 @@
 ---
-_layout: gallery
 title: Iceland
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
