@@ -385,6 +385,7 @@ footer .fab {
 font-size: 1.5rem;
 padding: 9px;
 border: solid orange;
+background-color: red;
 border-radius: 50%;
 }
 
