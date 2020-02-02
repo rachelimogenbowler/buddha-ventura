@@ -384,7 +384,8 @@ margin-bottom: 4rem;
 footer .fab {
 font-size: 3rem;
 padding: 9px;
-border-radius: 1.6875rem; solid orange;
+border: solid orange;
+border-radius: 1.6875rem;
 }
 
 .rounded-social-buttons .social-button {
