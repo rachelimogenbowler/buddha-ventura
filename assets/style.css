@@ -392,6 +392,10 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
+.button-solid:hover {
+  background-color: #996666;
+  border-color: #996666;
+
 .sub-footer {margin: 0;}
 
 .sub-footer a {
