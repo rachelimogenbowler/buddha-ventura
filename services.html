@@ -29,7 +29,7 @@ services:
 
   {% for service in page.services %}
 
-  <div class="max-1200 padded-2">
+  <div class="max-1200 padded-2 clickable-box">
   <a href="portfolio">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
       <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
