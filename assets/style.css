@@ -709,6 +709,7 @@ footer .logo {
 
   .clickable-service {
     text-decoration: none;
+    color: inherit;
   }
 
 /* pop-up gallery */
