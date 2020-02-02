@@ -705,11 +705,11 @@ footer .logo {
   .clickable-box:hover {
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
     margin-top:-2px;
+  }
 
   .clickable-service {
     text-decoration: non;
   }
-
 
 /* pop-up gallery */
 
