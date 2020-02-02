@@ -29,14 +29,14 @@ services:
 
   {% for service in page.services %}
 
-  <div class="max-1200 padded-2 clickable-box">
+  <div class="max-1200 padded-2 clickable-box clickable-service">
   <a href="portfolio">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
       <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
       </div>
       <div class="col-6_sm-12-middle padded">
-        <h3 class="editable clickable-service"> {{service.title}} </h3>
-        <p class="editable clickable-service"> {{service.description}} </p>
+        <h3 class="editable"> {{service.title}} </h3>
+        <p class="editable"> {{service.description}} </p>
       </div>
   </a>
 
