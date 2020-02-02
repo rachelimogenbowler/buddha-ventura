@@ -382,10 +382,10 @@ margin-bottom: 4rem;
   }
 
 footer .fab {
-font-size: 2rem;
+font-size: 1.5rem;
 padding: 9px;
 border: solid orange;
-border-radius: 1.6875rem;
+border-radius: 50%;
 }
 
 .rounded-social-buttons .social-button {
