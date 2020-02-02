@@ -388,6 +388,8 @@ padding: 10px;
 border: solid #36454f;
 background-color: #36454f;
 border-radius: 50%;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .sub-footer {margin: 0;}
