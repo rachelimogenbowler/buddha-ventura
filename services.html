@@ -30,6 +30,7 @@ services:
   {% for service in page.services %}
 
   <div class="max-1200 padded-2">
+  <a href="portfolio">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
       <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
       </div>
@@ -37,13 +38,15 @@ services:
         <h3 class="editable"> {{service.title}} </h3>
         <p class="editable"> {{service.description}} </p>
       </div>
+  </a>
     </div>
+
   </div>
   {% endfor %}
 
 </section>
 
-<!-------- Hover Grid --------->
+<!-------- Meet the Team Hover Grid --------->
 
 <section class="padded centered">
   <h2 class="editable"> Meet the Team </h2>
