@@ -86,6 +86,8 @@ LIGHTEST: #f1f4f6
 
   .square {
     height: 29.63vw;
+    background-size: cover;
+    background-position: center;
   }
 
   /* General typography */
