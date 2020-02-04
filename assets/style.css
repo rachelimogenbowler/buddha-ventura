@@ -84,6 +84,10 @@ LIGHTEST: #f1f4f6
   .flex-flip:nth-child(2n),
   .odd {  flex-direction: row-reverse; }
 
+  .square {
+    height: 25vw
+  }
+
   /* General typography */
 
   h1 {
