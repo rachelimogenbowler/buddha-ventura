@@ -4,11 +4,11 @@ layout: default
 <section class="padded">
 <h1 class="page-title centered editable"> Projects </h1>
 
-<div class="blog-loop">
+<div class="blog-loop grid">
 
   {% for project in site.projects limit: 6 %}
 
-  <div class="padded-1">
+  <div class="col-4_sm-12ß">
     <a href="{{project.url}}" class="project-banner-link banner grid-bottom padded-1 col-4_sm-12" style="background-image:url('{{project.image_path}}')">
       <div class="col-4_sm-12 padded-1 square">
 
