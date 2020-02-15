@@ -1,0 +1,864 @@
+/*-----  CSS RESET  ------*/
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+  }
+
+  img {
+    max-width: 100%; /* this ensures images never break their container */
+    height: auto;
+  }
+
+  body {
+    /* font-family: 'Noto Sans HK', sans-serif; */
+    font-family: 'muli';
+    color: #36454f;
+    position: relative;
+  }
+
+   /* this overrides the default padding and margin on gridlex elements */
+  [class*=grid] {   margin: 0;  }
+  [class*=col]  {   padding: 0; }
+
+/* COLOUR SCHEME:
+DARK BLUE/GREY (fonts etc): #36454f
+MID: #364550
+MID- LIGHT: #5e788a
+LIGHT- MID (ACCENT): #7c95a6
+LIGHT (ACCENT): #abbbc6
+LIGHTEST: #f1f4f6
+ */
+  /* ------------- Utility Classes --------------  */
+
+  .left     {  text-align: left;     }
+  .right    {  text-align: right;    }
+  .centered {  text-align: center;   }
+
+  .padded   {  padding: 5%;    }
+  .padded-1 {  padding: 1rem;  }
+  .padded-2 {  padding: 2rem;  }
+  .padded-3 {  padding: 3rem;  }
+  .padded-bottom-2 { padding-bottom: 2rem; }
+  .no-padding-top {padding-top: 0;}
+
+
+  .capped-width { width: 80%; margin: auto;}
+
+  .bg-image {
+    background-image: url('/images/buddha-ventura-2.jpg'); /* placeholder image */
+    background-size: cover;
+    background-position: center;
+    min-height: 10rem;
+  }
+
+  .tall-50  {  min-height: 50vh;   }
+  .tall-100 {  min-height: 100vh;  }
+
+  .max-1200 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.max-1400 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+  .dark-bg      {  background-color: #36454f; }
+  .light-bg     {  background-color: #ececec; }
+  .featured-bg  {  background-color: #996666; }
+
+  .box {
+      background-color:#36454f;
+      margin-bottom: 1rem;
+  }
+
+  .light-text   { color: white; }
+  .featured-text { color: #996666 }
+  .flex-flip:nth-child(2n),
+  .odd {  flex-direction: row-reverse; }
+
+  .square {
+    height: 25vw
+  }
+
+  /* General typography */
+
+  h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin-bottom: 0.8rem;
+    font-family: 'minerva-modern', sans-serif;
+    font-weight: normal;
+  }
+
+  h2  { font-size: 2.2rem;  }
+  h3  { font-size: 1.8rem;  }
+  h4  { font-size: 1.4rem;  }
+  p   { font-size: 1rem;  }
+
+  p, ul {
+     margin-bottom: 0.8rem;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  /* this makes sure that the last element in any container doesn't have margin-bottom */
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child,
+  h6:last-child,
+  p:last-child {
+    margin-bottom:0;
+  }
+
+  hr { /* this is a line element */
+    border: none;
+    border-bottom: 3px solid;
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
+
+.page-title {
+margin-bottom: 4rem;
+}
+
+  /* ------- unique typography styles - adjust to suit your styles  --------- */
+
+  .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
+  .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
+
+  .big-bold {
+    font-size: 5rem;
+    /* font-weight: 700; */
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
+    font-size: 1.2rem;
+  }
+
+  /* Icons */
+
+  .far {        /* default styles for font awesome icons */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .featured-stat {     /* styles for our featured statistic icons  */
+    font-size: 3rem;
+    color: #abbbc6;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .highlight { /* this is applied to spans for out highlighted text. */
+    background-color: rgb(240, 240, 245);
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 2px;
+  }
+
+  .quote-icon {  /* You can also change the fonts for these icons specifically */
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  /* ---------------  Button Styles  --------- */
+  /* We have created lots of different button styles, you probably don't need to have quite this many styles depending on your site */
+
+  .button,
+  .button-solid,
+  .button-inverted {
+    text-decoration: none;
+    color: #36454f;
+    border: 2px solid;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .button:hover {
+    color: #996666;
+  }
+
+  .button.inverted {   /* this is for a button on a dark background */
+    border: 2px solid white;
+    color: white;
+  }
+
+  .button-dark-bg {
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.button-dark-bg:hover {
+  color: #abbbc6;
+  border-color: #abbbc6;
+
+}
+
+  .button.inverted:hover {
+    color: #996666;
+    border-color: #996666;
+  }
+
+  .button-solid {
+    background-color: #996666;
+    border-color: #996666;
+    color: white;
+  }
+
+  .button-solid:hover {
+    background-color: #996666;
+    border-color: #996666;
+  }
+
+  .arrow { /* this is the arrow button */
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+    min-width: 2.5rem;
+    border: 1px solid #abbbc6;
+    padding: 0.5rem;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #abbbc6;
+    margin-top: 0.5rem;
+  }
+
+    .arrow:hover {
+      color: #36454f;
+      border-color: #36454f;
+    }
+
+
+  /* Headers and footers */
+
+  header {
+    padding: 2% 5%;
+  }
+
+  header a,
+  footer a,
+  nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header nav a,
+  .inline a {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  nav a:hover {
+    color: #996666;
+  }
+
+  header nav a.emphasis {
+    /* padding: 0.5rem 2rem; */
+    margin: 0 0.5rem;
+    border: 1px solid #abbbc6;
+    border-radius: 2px;
+    color: #abbbc6;
+  }
+
+  header nav a.emphasis:hover {
+    background-color: #abbbc6;
+    color: white;
+  }
+
+  /* Dropdown Header */
+
+  header li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+
+  header li .dropdown-menu {
+    display: none;
+    padding: 1rem;
+    min-width: 12rem;
+  }
+
+  header li li {
+    display: block;
+  }
+
+  header .dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: -1rem;
+    background-color: white;
+  }
+
+  /* Fixed Header Option */
+
+  header.fixed {
+    position: fixed;
+    background-color: #f9ca24;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 2;
+    margin:0;
+    padding: 1%;
+    text-align: center;
+  }
+  .bump-for-header {
+    min-height: 4rem;
+  }
+
+
+  /* Hamburger Menu */
+  .hamburger,
+  .mobile-menu {
+    display: none;
+  }
+
+  .hamburger {
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 3;
+    font-size: 1.5rem;
+    padding:2% 5%;
+  }
+  .active {
+    color: #996666;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: #36454f;
+    padding: 10%;
+  }
+  .mobile-menu a {
+    color: white;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+  }
+
+
+  /* -- Footer -- */
+
+  footer {
+    padding: 5%;
+  }
+
+
+  footer h3 {
+    font-size: 1.2rem;
+  }
+
+footer .fab {
+font-size: 1.5rem;
+color: #ececec;
+padding: 9px;
+border: solid #36454f;
+background-color: #36454f;
+border-radius: 50%;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.sub-footer {margin: 0;}
+
+.sub-footer a {
+  background-color: #ececec;
+  color: #36454f;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.sub-footer img{width: 49px;
+    transform: translate(8px, -2.2px);}
+
+.scroll-to-top i {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.logo {
+max-width: 10rem;
+}
+
+footer .logo {
+  display: block;
+  margin: auto;
+}
+
+  /* BANNERS */
+
+  .banner,
+  .banner-with-header {
+    background-image: url('/images/buddha-ventura-9.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+  }
+
+  .fixed {
+    background-attachment: fixed;
+  }
+
+  .banner-with-header {
+    padding-top: 6rem;
+    min-height: 100vh;
+  }
+
+  .project-banner-link {
+    transition: all 0.5s;
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+    background-color: rgba(54, 69, 79,0.8);
+  }
+
+  .project-banner-link .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.5s;
+}
+  .project-banner-link > .inner {
+      position: relative;
+      z-index: 5
+    }
+
+    .project-banner-link .overlay:hover {
+      background-color: rgba(54, 69, 79,0.8);
+    }
+
+
+  .absolute-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background: none;
+  }
+
+  .bg-pencils {
+    background-image: url('/images/pencils.jpg');
+    background-position: left;
+  }
+
+
+  /* Hover grid */
+
+  .hover-container {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hover-overlay {
+    position: relative;
+    padding-bottom: 100%;
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+    transition: all 0.3s;
+  }
+
+  .hover-overlay:hover {
+    background-color: rgba(60, 60, 60, 0.7);
+    color: white;
+  }
+
+  .hover-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .hover-inner p {
+    margin-bottom: 0;
+  }
+
+  /* Blog Post Elements */
+  /* ---- Blog loop elements style 1 ------ */
+  .blog-loop .blog-item {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    display:block;
+  }
+
+  .blog-loop .bg-image {
+    padding-bottom: 60%;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-loop img,
+  .post-body img {
+      margin-bottom: 2vh;
+  }
+
+  /* ---- Blog loop elements style 2 ------ */
+  .blog-item-wide .bg-image {
+    padding-bottom: 30%;
+  }
+
+  .text-bump { /* selects every second one and reverses it */
+    margin-left: -2rem;
+    background-color: rgb(240,240,245);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .blog-item-wide:nth-child(odd) { /* selects every second one and reverses it */
+    flex-direction: row-reverse;
+  }
+
+  .blog-item-wide:nth-child(odd) .text-bump { /* selects every second one and reverses it */
+    margin-right: -2rem;
+    margin-left: 0;
+  }
+
+
+  /* ---- Blog post pages ------ */
+  .post-body {
+    padding-right: 3%;
+  }
+
+  .post-meta {
+    font-size: 0.9rem;
+  }
+
+  .sidebar > div {
+    border: 2px solid #ececec;
+    padding: 2rem;
+    margin: 2vh 0;
+  }
+
+  .category {
+    display: inline-block;
+    text-decoration: none;
+    color: #36454f;
+    border: 1px solid #36454f;
+    margin: 2px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+
+  a.category:hover {
+    border-color: #996666; /* featured color */
+    color: #996666; /* featured color */
+  }
+
+  .social-share nav [class*=fa] {
+    padding: 0 1em 0 0;
+  }
+
+  .social-share hr{
+    margin: 3rem 0;
+  }
+
+  /* ----- FORMS --------------------------- */
+
+  input,
+  textarea {
+    border-style: solid;
+    border: 2px solid #36454f;
+    padding: 0.8em;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid #abbbc6;
+    /* featured color */
+  }
+
+  textarea {
+    min-height: 7em;
+  }
+
+  input[type="submit"] {
+    width: auto;
+    display: block;
+  }
+
+  form [class*=col-] {
+    padding: 5px;
+  }
+
+  .email-signup input {
+    width: 30%;
+    display: inline-block;
+    max-width: 250px;
+    margin-top:1rem;
+  }
+
+  .email-signup .button-solid {
+    padding: 0.8em;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+   form .button {
+     width:100%;
+   }
+
+   @media(max-width:768px) {
+     .email-signup input {
+       width: 100%;
+       max-width: 100%;
+     }
+   }
+
+  /* Testimomnials */
+
+  .card {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .profile {
+    max-width: 8rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .card .author {
+    font-weight: bold;
+    margin-bottom:0;
+  }
+
+  .card .company {
+    margin-bottom: 2rem;
+  }
+
+  /* clickable boxes */
+
+  .clickable-box {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
+    transition: 0.2s all;
+    display: block;
+  }
+
+  .clickable-box .overlay {
+    min-height:10rem;
+    padding: 5rem 2rem;
+    background-color: 161d21;
+    color: white;
+  }
+
+  .clickable-box p {
+    margin-bottom: 0;
+  }
+
+  .clickable-box:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top:-2px;
+  }
+
+  .clickable-service {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* pop-up gallery */
+
+.popup-gallery .bg-image {
+  border: 2px solid white;
+}
+
+
+/* Masonry Gallery */
+
+.masonry { /* Masonry container */
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.masonry .item { /* Masonry bricks or child elements */
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+@media(max-width:767px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media(max-width:567px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+
+/* pricing cards  */
+
+.card.featured {
+  border: 2px solid orange;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.pricing-name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(120,120,125);
+}
+
+.card .button {
+  margin-top:2rem;
+}
+
+/* Responsive video */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container.vertical {
+  padding-bottom: 162.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Accordian slides */
+
+.accordion dt a {
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+  display:block;
+  color: #e67e22;
+  position: relative;
+  text-decoration: none;
+}
+.accordion dd {
+  padding: 0.5rem;
+}
+
+/* Accordian Icon */
+.accordion dt a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+
+/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
+.accordion dt a::after {
+  content: "+";
+}
+.open::after {
+  transform: rotateZ(45deg);
+}
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+
+  .mob-hide {
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+
+  .blog-item-wide .bg-image{
+    padding-bottom: 60%;
+  }
+
+  #body .text-bump {
+    margin: -0.5rem;
+  }
+
+  .capped-width {
+    width: 100%;
+  }
+  .flex-flip{
+    flex-direction: row;
+  }
+
+
+} /* end media query */
+
+
+/* This media query kicks into action at the gridlex xs breakpoint */
+@media(max-width:576px) {
+
+} /* end media query */
