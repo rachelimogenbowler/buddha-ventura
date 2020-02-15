@@ -85,7 +85,14 @@ LIGHTEST: #f1f4f6
   .odd {  flex-direction: row-reverse; }
 
   .square {
-    height: 25vw
+    height: 29.63vw;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    background-color: rgba(54,69,79,.8);
   }
 
   /* General typography */
