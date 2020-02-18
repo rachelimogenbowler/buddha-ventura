@@ -4,10 +4,9 @@ title: Buddha Ventura
 meta-description:
 meta-keywords:
 featured-image_path:
-banner_image: /images/gif-buddha-header.gif
+banner_image: 'https://vimeo.com/391879913'
 second-banner_image: /images/gif-buddha-spacer.gif
 ---
-
 
 <!-- FIXED BANNER SECTION - INSERT VIDEO -->
 
@@ -28,7 +27,7 @@ second-banner_image: /images/gif-buddha-spacer.gif
 {% for project in site.projects limit:3 %}
 
     <a href="{{project.url}}" class="col-4_sm-12 padded-1">
-      <div class="hover-container" style="background-image: url('{{project.image_path}}')" >
+      <div class="hover-container" style="background-image: url('{{project.image_path}}')">
         <div class="hover-overlay">
           <div class="hover-inner">
             <h3> {{project.title}} </h3>
@@ -100,7 +99,7 @@ second-banner_image: /images/gif-buddha-spacer.gif
 {% for post in site.posts limit:3 %}
 
     <a href="{{post.url}}" class="col-4_sm-12 padded-1">
-      <div class="hover-container" style="background-image: url('{{post.image_path}}')" >
+      <div class="hover-container" style="background-image: url('{{post.image_path}}')">
         <div class="hover-overlay">
           <div class="hover-inner">
             <h3> {{post.title}} </h3>
@@ -132,14 +131,14 @@ second-banner_image: /images/gif-buddha-spacer.gif
   <div class="col-8_md-12 padded">
     <form class="grid-center" action="https://formspree.io/contactbuddhaventura@gmail.com" method="POST">
       <div class="col-6_sm-12">
-        <input type="text" name="name" placeholder="Your Name">
+        <input type="text" name="name" placeholder="Your Name" />
       </div>
       <div class="col-6_sm-12">
-        <input type="email" name="_replyto" placeholder="Your Email">
+        <input type="email" name="_replyto" placeholder="Your Email" />
       </div>
       <div class="col-12">
         <textarea placeholder="Your Message"></textarea>
-        <input type="submit" value="Send" class="button">
+        <input type="submit" value="Send" class="button" />
       </div>
     </form>
   </div>
