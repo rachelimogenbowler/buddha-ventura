@@ -12,45 +12,55 @@ second-banner_image: /images/gif-buddha-spacer.gif
 
 <section class="banner grid-center fixed editable" style="background-image:url({{page.banner_image}})">
   <div class="col-6_sm-12-middle centered">
-    <h2 class="big-bold editable"> Let's Explore </h2>
+    <h2 class="big-bold">Let's Explore</h2>
   </div>
 </section>
 
 <!-- RECENT PROJECTS SECTION -->
 
 <section class="padded centered editable">
-  <h2 class="page-title"> Recent Projects </h2>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-
-<div class="grid padded-1">
-{% for project in site.projects limit:3 %}
-
-    <a href="{{project.url}}" class="col-4_sm-12 padded-1">
-      <div class="hover-container" style="background-image: url('{{project.image_path}}')">
-        <div class="hover-overlay">
-          <div class="hover-inner">
-            <h3> {{project.title}} </h3>
-          </div>
+  <h2 class="page-title">REEL 2020</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p><a href="https://vimeo.com/391879913"><img src="/uploads/reel-display.jpg" width="2584" height="1448" /></a></p>
+  <div class="grid padded-1">
+    <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')">
+      <div class="hover-overlay">
+        <div class="hover-inner">
+          <h3><a class="col-4_sm-12 padded-1" href="/projects/clone-project">Clone Project </a></h3>
         </div>
       </div>
-    </a>
-
-  {% endfor %}
-</div>
-
-
+    </div>
+    <div class="hover-container" style="background-image: url('/images/buddha-ventura-1.jpg')">
+      <div class="hover-overlay">
+        <div class="hover-inner">
+          <h3><a class="col-4_sm-12 padded-1" href="/projects/clone-test">clone test </a></h3>
+        </div>
+      </div>
+    </div>
+    <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')">
+      <div class="hover-overlay">
+        <div class="hover-inner">
+          <h3><a class="col-4_sm-12 padded-1" href="/projects/iceland">Iceland </a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ABOUT US - SPLIT IMAGE TEXT SECTION -->
 
 <section class="grid light-bg" style="min-height:60vh">
   <div class="col-6_sm-12 bg-image editable" style="background-image:url('/images/Buddha-Ventura-Couple-Shot-2.jpeg')">
-    </div>
+    
+  </div>
 
   <div class="col-6_sm-12-middle padded">
-    <h2 class="editable"> About Buddha Ventura </h2>
-      <p class="emphasis editable"> Little intro to click through to about page Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <h2 class="editable">
+      About Buddha Ventura
+    </h2>
+      <p class="emphasis editable">
+        Little intro to click through to about page Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
       <p> <a class="button" href="/about"> Our Story </a> </p>
   </div>
 </section>
@@ -59,22 +69,34 @@ second-banner_image: /images/gif-buddha-spacer.gif
 
 <section class="grid-spaceAround padded centered max-1400">
   <div class="col-10_sm-12 padded-2 no-padding-top">
-    <h2 class="page-title editable"> Services </h2>
-    <p class="padded-bottom-2 editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <h2 class="page-title editable">
+      Services
+    </h2>
+    <p class="padded-bottom-2 editable">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
   </div>
 
   <div class="col-5_xs-12 padded-2 grid">
     <div class=" col-12 box light-text padded">
-    <h2 class="editable"> Do you want awesome visual content? </h2>
-    <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, est laborum. </p>
+    <h2 class="editable">
+      Do you want awesome visual content?
+    </h2>
+    <p class="editable">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, est laborum.
+    </p>
     <p> <a class="button-dark-bg" href="/services"> see more </a> </p>
   </div>
 
   </div>
 
   <div class="col-5_xs-12 padded-2 grid">
-    <div class=" col-12 box light-text padded"> <h2 class="editable"> Do you want to reduce your carbon footprint? </h2>
-      <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+    <div class=" col-12 box light-text padded"> <h2 class="editable">
+   Do you want to reduce your carbon footprint?
+ </h2>
+      <p class="editable">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      </p>
     <p> <a class="button-dark-bg" href="/services"> see more </a> </p>
   </div>
   </div>
@@ -84,14 +106,18 @@ second-banner_image: /images/gif-buddha-spacer.gif
 <!-- VISUAL BREAK BANNER -->
 
 <section class="banner grid-center fixed editable" style="background-image:url({{page.second-banner_image}})">
-  <div class="col-6_sm-12-middle centered"> </div>
+  
 </section>
 
 <!--  RECENT BLOG POSTS SECTION -->
 
 <section class="padded centered">
-  <h2 class="page-title editable"> Recent Blog Posts </h2>
-  <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <h2 class="page-title editable">
+    Recent Blog Posts
+  </h2>
+  <p class="editable">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
 
 
 
