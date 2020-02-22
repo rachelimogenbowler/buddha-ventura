@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Le Maelström
+title: LE MAELSTRÖM
 meta-description:
 meta-keywords: 'cabin, quebec, eco-luxe,'
 image_path: /uploads/dji-0810-edit-wide.jpg
