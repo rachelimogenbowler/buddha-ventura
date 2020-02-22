@@ -1,15 +1,18 @@
 ---
 layout: project
-title:
+title: Le Maelström
 meta-description:
-meta-keywords:
-image_path: /images/buddha-ventura-3.jpg
+meta-keywords: 'cabin, quebec, eco-luxe,'
+image_path: /uploads/dji-0810-edit-wide.jpg
 ---
 
-# Iceland&nbsp;
+# Le MAeLSTRÖM&nbsp;
+{: .align-to-center}
 
-This is a test paragraph. Jona is testing it too.
+A short lifestyle video ad collaboration between eco-tourism brand Buddha Ventura and [Haven creative studio](http://havencreative.studio/) for [Le Maelström](https://lemaelstrom.ca/en/) eco-luxe and sustainable cabins near Qu&eacute;bec City. Capturing a unique above the clouds glamping experience at an altitude of 550 meters. With dramatic landscapes, solar-powered and gas-heated amenities the cozy breathtaking getaway experience at the Lagöm cabin lives up to its Swedish influence of not too much, not too little but *just enough*.&nbsp;
+{: .align-to-center}
 
-![](/uploads/outing.jpg){: .one-half width="1080" height="718"}![](/uploads/outing.jpg){: .one-half width="1080" height="718"}
+&nbsp;
+{: .align-to-center}
 
-![](/images/buddha-ventura-9.jpg){: .one-half width="2394" height="2992"}
+<div class="cms-embed" data-cms-embed="PGlmcmFtZSBzcmM9Imh0dHBzOi8vcGxheWVyLnZpbWVvLmNvbS92aWRlby8zOTE4ODM3MjIiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjM2MCIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhdXRvcGxheTsgZnVsbHNjcmVlbiIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPgo="><iframe src="https://player.vimeo.com/video/391883722" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
