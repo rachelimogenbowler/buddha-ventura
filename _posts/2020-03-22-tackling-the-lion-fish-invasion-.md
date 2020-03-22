@@ -7,7 +7,7 @@ description: >-
   it has a ferocious appetite and no natural predators.
 meta-description: Barbados Ecotourism
 meta-keywords: 'travel, sustainability, Barbados, ecotourism, lion fish,'
-image_path: /uploads/tridentfreedivers-spearfishing-7093.jpg
+image_path: /uploads/lion-fish-display.jpg
 categories:
   - travel
   - sustainability
