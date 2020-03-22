@@ -50,10 +50,10 @@ Through awareness, and sustained removal with the active participation from dive
 The media is a powerful way to share the facts and stay updated. When collective community effort is strong, the media is able to share positive news. Here at Buddha Ventura we are inspired by positive action towards our environment. We want to support and ensure solutions through projects and video production. &nbsp;
 {: .align-to-center}
 
-## <br>Here’s how you can![](/uploads/tridentfreedivers-spearfishing-7088.jpg){: .float-right width="3000" height="2250"} be part of the solution.
+## <br>Here’s how you can be part of the solution.
 {: .align-to-center}
 
-I bet you’re feeling like you want to be one of those divers that remove these unwanted fish. You can book a spearfishing tour with **Johanna** at **Trident Freedivers**. She will take you for a hunt just off the shore to help clean the reef. Lion fish are the best fish to shoot for beginners because they hover in place. Their poisonous spikes give them confidence to be less of a moving target, but don’t worry, Hannah will help you cut them off right after you strike. The smaller ones make for a delicious ceviche and the big ones can be grilled up with a local Bajan marinade. Although the spikes of the fish contain venom, they are perfectly safe to eat.
+I bet you’re feeling like you want to be ![](/uploads/tridentfreedivers-spearfishing-7088.jpg){: .float-right width="3000" height="2250"}one of those divers that remove these unwanted fish. You can book a spearfishing tour with **Johanna** at **Trident Freedivers**. She will take you for a hunt just off the shore to help clean the reef. Lion fish are the best fish to shoot for beginners because they hover in place. Their poisonous spikes give them confidence to be less of a moving target, but don’t worry, Hannah will help you cut them off right after you strike. The smaller ones make for a delicious ceviche and the big ones can be grilled up with a local Bajan marinade. Although the spikes of the fish contain venom, they are perfectly safe to eat.
 {: .align-to-center}
 
 [Visit Trident Freedivers](/2019/first-blog-post){: .button target="_blank"}
