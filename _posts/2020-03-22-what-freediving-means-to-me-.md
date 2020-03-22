@@ -26,7 +26,7 @@ I’ve always been drawn to the ocean and what lies beneath the surface. The pro
 
 In my early twenties I started exploring the underwater world during my travels to Thailand, South Africa, Mexico, Panama, Spain, and Barbados. Each experience drawing me in closer to its majesty. Watching the wisest of turtles venture through their life long journey. Swimming alongside hundreds of whale sharks. Dancing with jellyfish. Snorkelling through ship wrecks. One of the most impactful experiences was cage diving with great white sharks. We got to understand these mysterious creatures with every second we could hold our breath underwater. At the time, I had no experience doing this. The longer we held our breath the higher the chance of being graced by a white shark (more accurately termed) slowly swimming by. It’s when I learned that they are not always ferocious animals, but deeply misunderstood.&nbsp;
 
-![](/uploads/bm-logo.gif){: width="1091" height="1091"}
+&nbsp;
 
 Wanting to learn more, I needed the ocean to be more accessible to me so, in another life, I was working as a flight attendant. Exploring everything the world has to offer while getting paid to do so. Excited about a life filled with travel and new experiences I attended a private pilot school. I know what you might be thinking, if you wanted to be closer to the ocean, why would you choose a life in the sky? The furthest possible job from the ocean.&nbsp;
 
