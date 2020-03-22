@@ -47,7 +47,7 @@ Through awareness, and sustained removal with the active participation from dive
 The media is a powerful way to share the facts and stay updated. When collective community effort is strong, the media is able to share positive news. Here at Buddha Ventura we are inspired by positive action towards our environment. We want to support and ensure solutions through projects and video production. &nbsp;
 {: .align-to-center}
 
-## <br>![](/uploads/tridentfreedivers-spearfishing-7088.jpg){: .float-right width="3000" height="2250"}Here’s how you can be part of the solution.
+## <br>![](/uploads/tridentfreedivers-spearfishing-7077.jpg){: .float-right width="2250" height="3000"}Here’s how you can be part of the solution.
 {: .align-to-center}
 
 I bet you’re feeling like you want to be one of those divers that remove these unwanted fish. You can book a spearfishing tour with **Johanna** at **Trident Freedivers**. She will take you for a hunt just off the shore to help clean the reef. Lion fish are the best fish to shoot for beginners because they hover in place. Their poisonous spikes give them confidence to be less of a moving target, but don’t worry, Hannah will help you cut them off right after you strike. The smaller ones make for a delicious ceviche and the big ones can be grilled up with a local Bajan marinade. Although the spikes of the fish contain venom, they are perfectly safe to eat.
@@ -62,7 +62,7 @@ I bet you’re feeling like you want to be one of those divers that remove these
 By giving back to the reef the ocean might grace you with some majestic stingrays dancing around the golden glow of the waters as the sun sets. Although it’s helpful to our oceans to remove the lion fish from the reef, during the spearfishing tour keep your eyes peeled for other tasty fish as this is one of the most sustainable ways to eat fish.&nbsp;
 {: .align-to-center}
 
-![](/uploads/tridentfreedivers-spearfishing-7076.jpg){: width="2250" height="3000"}
+![](/uploads/tridentfreedivers-spearfishing-7090.jpg){: width="3000" height="2250"}
 {: .align-to-center}
 
 *Disclaimer:&nbsp;*
