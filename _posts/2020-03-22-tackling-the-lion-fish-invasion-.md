@@ -62,11 +62,17 @@ I bet you’re feeling like you want to be one of those divers that remove these
 By giving back to the reef the ocean might grace you with some majestic stingrays dancing around the golden glow of the waters as the sun sets. Although it’s helpful to our oceans to remove the lion fish from the reef, during the spearfishing tour keep your eyes peeled for other tasty fish as this is one of the most sustainable ways to eat fish.&nbsp;
 {: .align-to-center}
 
-## ![](/uploads/fullsizerender.jpg){: .one-half width="1512" height="2016"}![](/uploads/tridentfreedivers-deepday-7046.jpg){: .one-half width="2250" height="3000"}
-{: .clear-images-h2}
-
-![](/uploads/tridentfreedivers-spearfishing-7091.jpg){: width="3000" height="2250"}
+&nbsp;
 {: .align-to-center}
+
+&nbsp;
+{: .align-to-center}
+
+&nbsp;
+{: .align-to-center}
+
+# ![](/uploads/tridentfreedivers-spearfishing-7091.jpg){: width="3000" height="2250"}![](/uploads/fullsizerender-1.jpg){: width="1512" height="2016"}
+{: .clear-images-h2}
 
 *Disclaimer:&nbsp;*
 {: .align-to-center}
