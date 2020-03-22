@@ -1,13 +1,12 @@
 ---
 layout: post
-title: First Blog Post
+title: Tackling the lion fish invasion.
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.
-meta-description:
-meta-keywords:
+  Hypnotizing maroon and white stripes, feathery pectoral fins and long spikes.
+  Their beauty is a real site but the problem with this non native fish is that
+  it has a ferocious appetite and no natural predators.
+meta-description: Barbados Ecotourism
+meta-keywords: 'travel, sustainability, Barbados, ecotourism, lion fish,'
 image_path: /uploads/tridentfreedivers-spearfishing-7087.jpg
 categories:
   - travel
@@ -15,7 +14,7 @@ categories:
   - barbados
   - ecotourism
   - lionfish
-author: Jess and Jona
+author: Jessica Racanelli
 ---
 
 # Barbados Ecotourism
