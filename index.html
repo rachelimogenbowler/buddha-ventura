@@ -19,32 +19,28 @@ second-banner_image: /images/gif-buddha-spacer.gif
 <!-- RECENT PROJECTS SECTION -->
 
 <section class="padded centered editable">
-  <h2 class="page-title">REEL 2020</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p><a href="https://vimeo.com/391879913"><img src="/uploads/reel-display.jpg" width="2584" height="1448" /></a></p>
-  <div class="grid padded-1">
-    <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')">
-      <div class="hover-overlay">
-        <div class="hover-inner">
-          <h3><a class="col-4_sm-12 padded-1" href="/projects/clone-project">Clone Project </a></h3>
-        </div>
-      </div>
-    </div>
-    <div class="hover-container" style="background-image: url('/images/buddha-ventura-1.jpg')">
-      <div class="hover-overlay">
-        <div class="hover-inner">
-          <h3><a class="col-4_sm-12 padded-1" href="/projects/clone-test">clone test </a></h3>
-        </div>
-      </div>
-    </div>
-    <div class="hover-container" style="background-image: url('/images/buddha-ventura-3.jpg')">
-      <div class="hover-overlay">
-        <div class="hover-inner">
-          <h3><a class="col-4_sm-12 padded-1" href="/projects/iceland">Iceland </a></h3>
-        </div>
-      </div>
-    </div>
+  <div class="editable">
+    <h2 class="page-title">REEL 2020</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p><a href="https://vimeo.com/391879913"><img src="/uploads/reel-display.jpg" width="100%" /></a></p>
   </div>
+
+  <div class="grid padded-1">
+  {% for project in site.projects limit:3 %}
+
+      <a href="{{project.url}}" class="col-4_sm-12 padded-1">
+        <div class="hover-container" style="background-image: url('{{project.image_path}}')">
+          <div class="hover-overlay">
+            <div class="hover-inner">
+              <h3> {{project.title}} </h3>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    {% endfor %}
+  </div>
+
 </section>
 
 <!-- ABOUT US - SPLIT IMAGE TEXT SECTION -->

@@ -92,6 +92,7 @@ LIGHTEST: #f1f4f6
     text-decoration: none;
     color: #fff;
     position: relative;
+    display:block;
   }
 
   .square-project .overlay {
@@ -105,7 +106,7 @@ LIGHTEST: #f1f4f6
   .square-project .overlay:hover  {
     background-color: rgba(54,69,79,.8);
   }
-  
+
   /* General typography */
 
   h1 {

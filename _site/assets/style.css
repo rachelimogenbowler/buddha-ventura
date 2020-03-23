@@ -84,8 +84,27 @@ LIGHTEST: #f1f4f6
   .flex-flip:nth-child(2n),
   .odd {  flex-direction: row-reverse; }
 
-  .square {
-    height: 25vw
+  .square-project {
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display:block;
+  }
+
+  .square-project .overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+  .square-project .overlay:hover  {
+    background-color: rgba(54,69,79,.8);
   }
 
   /* General typography */
