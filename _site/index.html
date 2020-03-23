@@ -149,7 +149,14 @@
   <div class="editable">
     <h2 class="page-title">REEL 2020</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p><a href="https://vimeo.com/391879913"><img src="/uploads/reel-display.jpg" width="100%" /></a></p>
+
+    <!-- Option for image and link  -->
+    <!-- <p><a href="https://vimeo.com/391879913"><img src="/uploads/reel-display.jpg" width="100%" /></a></p> -->
+
+    <!-- Embed responsively Vimeo -->
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+    <div class='embed-container'><iframe src='https://player.vimeo.com/video/391879913' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
   </div>
 
   <div class="grid padded-1">
@@ -328,6 +335,38 @@
     </form>
   </div>
 </section>
+
+
+
+
+<!--
+NOTES FOR RACHEL
+
+Use this method for moving banners (like a video background), use embedresponsively.com and vimeo if you want them to see full videos that you can play and pause or have sound.
+
+Then you would add to the front matter something like this
+
+---
+video_image: /images/video-poster.jpg
+banner_video_path: /assets/video.mp4
+banner_video_heading: This is the text to display
+---
+
+Tina's Codepen Example https://codepen.io/instituteofcode/pen/MWwqLWq?editors=1100
+
+<section class="video-banner grid">
+
+  <video autoplay class="background-video" poster="" autoplay muted loop>
+    <source src="" type="video/mp4">
+  </video>
+
+  <div class="col-12 video-banner-inner">
+    <h2>  </h2>
+  </div>
+
+</section>
+
+ -->
 
 
   
