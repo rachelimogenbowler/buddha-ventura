@@ -39,15 +39,21 @@ layout: default
     {% endif %}
   {% endfor %}
 
+<div class="grid-spaceBetween">
   <p>
     {% if prev %}
+    <div class="col">
       <a href="{{ prev.url }}" class=" button prev" title="{{ prev.title }}">&lt; Older</a>
+    </div>
     {% endif %}
     {% if prev and next %}
       <span> | </span>
     {% endif %}
     {% if next %}
+    <div class="col">
       <a href="{{ next.url }}" class="button next" title="{{ next.title }}">Newer &gt;</a>
+    </div>
     {% endif %}
   </p>
+</div>
 {% endif %}
