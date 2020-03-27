@@ -41,14 +41,14 @@ layout: default
 
 <div class="grid-spaceBetween">
     {% if prev %}
-    <div class="col padded right">
+    <div class="col padded-1 left">
       <a href="{{ prev.url }}" class=" button prev" title="{{ prev.title }}">&lt; Older </a>
     </div>
     {% endif %}
     {% if prev and next %}
     {% endif %}
     {% if next %}
-    <div class="col padded">
+    <div class="col padded-1 left">
       <a href="{{ next.url }}" class="button next" title="{{ next.title }}">Newer &gt;</a>
     </div>
     {% endif %}
