@@ -292,6 +292,39 @@ margin-bottom: 4rem;
     color: inherit;
   }
 
+  header span{
+    position:relative;
+    top:0;
+    left:0;
+  }
+  /**--------------------NAV */
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 4;
+      background-color: #f9f9f9;
+      left:10px;
+      padding:5px;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-content a {
+    display:block;
+    padding:5px 15px;
+    text-align:left;
+    white-space:nowrap;
+  }
+
+  .dropdown-nav {
+    position:relative;
+  }
+  li{listdecoration:none}
+
+  .dropdown-nav:hover .dropdown-content {
+      display: block;
+  }
+
   header nav a,
   .inline a {
     display: inline-block;
@@ -570,6 +603,41 @@ footer .logo {
   .hover-inner p {
     margin-bottom: 0;
   }
+
+/* RESPONSIVE BACKGOUND VIDEO CSS */
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-image: url('http://www.instituteofcode.com/houdini.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  overflow:hidden;
+}
+
+.banner-inner {
+  position: relative;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10%;
+  color: white;
+  text-align: center;
+}
+
+.background-video {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+}
 
   /* Blog Post Elements */
   /* ---- Blog loop elements style 1 ------ */
