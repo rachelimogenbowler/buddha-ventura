@@ -2,18 +2,33 @@
 layout: default
 services:
   - title: Video Production
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     image_path: /images/buddha-ventura-1.jpg
   - title: Photography
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     image_path: /images/buddha-ventura-2.jpg
   - title: Eco-Sustainable Consulting
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     image_path: /images/buddha-ventura-5.jpg
 team:
-- image_path: /images/MrBeanII.jpg
-  name: Bean
-  title: tester
+  - image_path: /images/MrBeanII.jpg
+    name: Bean
+    title: tester
+  - image_path: /uploads/tridentfreedivers-spearfishing-7089.jpg
+    name: test 2
+    title: test
 ---
 
 <section class="padded editable">
@@ -54,8 +69,8 @@ team:
       <div class="hover-container" style="background-image:url('{{member.image_path}}')">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class=> {{member.name}} </h3>
-            <p class=> {{member.title}}</p>
+            <h3> {{member.name}} </h3>
+            <p> {{member.title}}</p>
           </div>
         </div>
       </div>
@@ -73,19 +88,19 @@ team:
 
     <div class="grid-center padded-1">
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
     </div>
 
@@ -101,14 +116,14 @@ team:
   <div class="col-12 padded">
     <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
       <div class="col-6_sm-12">
-        <input type="text" name="name" placeholder="Your Name">
+        <input type="text" name="name" placeholder="Your Name" />
       </div>
       <div class="col-6_sm-12">
-        <input type="email" name="_replyto" placeholder="Your Email">
+        <input type="email" name="_replyto" placeholder="Your Email" />
       </div>
       <div class="col-12">
         <textarea placeholder="Your Message"></textarea>
-        <input type="submit" value="Send" class="button">
+        <input type="submit" value="Send" class="button" />
       </div>
     </form>
   </div>
