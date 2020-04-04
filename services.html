@@ -10,7 +10,10 @@ services:
   - title: Eco-Sustainable Consulting
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     image_path: /images/buddha-ventura-5.jpg
-
+team:
+- image_path: /images/MrBeanII.jpg
+  name: Bean
+  title: tester
 ---
 
 <section class="padded editable">
@@ -32,6 +35,7 @@ services:
         <h3 class="editable"> {{service.title}} </h3>
         <p class="editable"> {{service.description}} </p>
       </div>
+  </div>
   </a>
 
   </div>
@@ -45,45 +49,18 @@ services:
   <h2 class="editable"> Meet the Team </h2>
   <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
   <div class="grid padded-1">
+{% for member in page.team limit: 4%}
     <div class="col-3_sm-12 padded-1">
-      <div class="hover-container editable" style="background-image:url('/images/MrBeanI.jpg')">
+      <div class="hover-container" style="background-image:url('{{member.image_path}}')">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class="editable"> Jona </h3>
-            <p class="editable"> Co-founder
+            <h3 class="editable"> {{member.name}} </h3>
+            <p class="editable"> {{member.title}}</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-3_sm-12 padded-1">
-      <div class="hover-container editable" style="background-image:url('/images/MrBeanII.jpg')">
-        <div class="hover-overlay">
-          <div class="hover-inner">
-            <h3 class="editable"> Teddy </h3>
-            <p class="editable"> Photographer </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-3_sm-12 padded-1">
-      <div class="hover-container editable" style="background-image:url('/images/MrBeanIII.jpg')">
-        <div class="hover-overlay">
-          <div class="hover-inner">
-            <h3 class="editable"> Jess </h3>
-            <p class="editable"> Co-founder </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-3_sm-12 padded-1">
-      <div class="hover-container editable" style="background-image:url('/images/MrBeanIV.jpg')">
-        <div class="hover-overlay">
-          <div class="hover-inner">
-            <h3 class="editable"> Mr Bean </h3>
-            <p class="editable"> Videographer </p>
-          </div>
-        </div>
-      </div>
+{% endfor %}
     </div>
 
 </section>
