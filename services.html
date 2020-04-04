@@ -35,7 +35,6 @@ team:
 
 <section>
 
-<!---
   {% for service in page.services %}
 
   <div class="max-1200 padded-2 clickable-box">
@@ -52,13 +51,13 @@ team:
 
 </div>
 {% endfor %}
---->
 
+<!--- MY RECODED SERVICES BUT STILL NOT QUITE RIGHT --->
 
   <div class="max-1200 padded-2 clickable-box">
     <a href="portfolio" class="clickable-service">
     <div class="grid-center light-bg">
-    <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
+    <div class="col-6_sm-12 bg-image tall-50 editable" style="min-height:50vh background-image:url('{{service.image_path}}')">
     </div>
     <div class="col-6_sm-12-middle padded">
       <h3 class="editable"> Video Production </h3>
@@ -68,6 +67,7 @@ team:
 </a>
 </div>
 
+<!---
 <div class="max-1200 padded-2 clickable-box">
   <a href="gallery" class="clickable-service">
   <div class="grid-center light-bg">
@@ -94,6 +94,8 @@ team:
 </div>
 </a>
 </div>
+
+--->
 
 </section>
 
