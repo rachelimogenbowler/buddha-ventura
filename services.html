@@ -14,9 +14,9 @@ services:
 ---
 
 <section class="padded editable">
-  <h1 class="centered page-title"> Services </h1>
-  <p class="centered"> We provide a collection of services... </p>
-</section>
+    <h1 class="centered page-title">Services</h1>
+    <p class="centered">We provide a collection of services...</p>
+  </section>
 
 <section>
 
@@ -27,12 +27,17 @@ services:
   <a href="portfolio" class="clickable-service">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
       <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
+        
       </div>
       <div class="col-6_sm-12-middle padded">
-        <h3 class="editable"> {{service.title}} </h3>
-        <p class="editable"> {{service.description}} </p>
+        <h3 class="editable">
+          Eco-Sustainable Consulting
+        </h3>
+        <p class="editable">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
       </div>
-  </a>
+  </div></a>
 
   </div>
   {% endfor %}
@@ -42,15 +47,19 @@ services:
 <!-------- Meet the Team Hover Grid --------->
 
 <section class="padded centered">
-  <h2 class="editable"> Meet the Team </h2>
-  <p class="editable"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <h2 class="editable">
+    Meet the Team
+  </h2>
+  <p class="editable">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
   <div class="grid padded-1">
     <div class="col-3_sm-12 padded-1">
       <div class="hover-container editable" style="background-image:url('/images/MrBeanI.jpg')">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class="editable"> Jona </h3>
-            <p class="editable"> Co-founder
+            <h3><img src="/uploads/screenshot-2020-03-24-at-14-26-00.png" width="902" height="1202" />Jona</h3>
+            <p>Co-founder</p>
           </div>
         </div>
       </div>
@@ -59,8 +68,8 @@ services:
       <div class="hover-container editable" style="">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class="editable"> Teddy </h3>
-            <p class="editable"> Photographer </p>
+            <h3>Teddy</h3>
+            <p>Photographer</p>
           </div>
         </div>
       </div>
@@ -69,8 +78,8 @@ services:
       <div class="hover-container editable" style="background-image:url('/images/MrBeanIII.jpg')">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class="editable"> Jess </h3>
-            <p class="editable"> Co-founder </p>
+            <h3>Jess</h3>
+            <p>Co-founder</p>
           </div>
         </div>
       </div>
@@ -79,14 +88,14 @@ services:
       <div class="hover-container editable" style="background-image:url('/images/MrBeanIV.jpg')">
         <div class="hover-overlay">
           <div class="hover-inner">
-            <h3 class="editable"> Mr Bean </h3>
-            <p class="editable"> Videographer </p>
+            <h3>Mr Bean</h3>
+            <p>Videographer</p>
           </div>
         </div>
       </div>
     </div>
 
-</section>
+</div></section>
 
 <!-------- Logo Grid  --------->
 
@@ -96,19 +105,19 @@ services:
 
     <div class="grid-center padded-1">
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="/images/logo.webp" />
       </div>
     </div>
 
@@ -124,14 +133,14 @@ services:
   <div class="col-12 padded">
     <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
       <div class="col-6_sm-12">
-        <input type="text" name="name" placeholder="Your Name">
+        <input type="text" name="name" placeholder="Your Name" />
       </div>
       <div class="col-6_sm-12">
-        <input type="email" name="_replyto" placeholder="Your Email">
+        <input type="email" name="_replyto" placeholder="Your Email" />
       </div>
       <div class="col-12">
         <textarea placeholder="Your Message"></textarea>
-        <input type="submit" value="Send" class="button">
+        <input type="submit" value="Send" class="button" />
       </div>
     </form>
   </div>
