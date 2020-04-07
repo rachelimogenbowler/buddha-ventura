@@ -32,27 +32,25 @@ team:
 ---
 
 <section class="padded editable">
-    <h1 class="centered page-title">Services</h1>
+    <h1 class="centered page-title margin-bottom-0">Services</h1>
     <p class="centered">We provide a collection of services...</p>
   </section>
-
 <section>
 
   {% for service in page.services %}
 
-  <div class="max-1200 padded-2 clickable-box">
-  <a href="{{service.url}}" class="clickable-service">
-    <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
-      <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
+  <div class="max-1200 padded-2">
+      <a href="{{service.url}}" class=" clickable-box clickable-service">
+        <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
+          <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
+          </div>
+          <div class="col-6_sm-12-middle padded">
+            <h3 class="editable"> {{service.title}} </h3>
+            <p class="editable"> {{service.description}} </p>
+          </div>
       </div>
-      <div class="col-6_sm-12-middle padded">
-        <h3 class="editable"> {{service.title}} </h3>
-        <p class="editable"> {{service.description}} </p>
-      </div>
+      </a>
   </div>
-  </a>
-
-</div>
 {% endfor %}
 
 <!--- MY RECODED SERVICES BUT STILL NOT QUITE RIGHT --->

@@ -83,6 +83,9 @@ LIGHTEST: #f1f4f6
 .no-padding-top {
   padding-top: 0;
 }
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
 
 .capped-width {
   width: 80%;
@@ -758,27 +761,6 @@ footer .logo {
 
 .hover-inner p {
   margin-bottom: 0;
-}
-
-
-/* RESPONSIVE BACKGOUND VIDEO CSS */
-
-.banner {
-  background-image: url('http://www.instituteofcode.com/houdini.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  min-height: 100vh;
-  overflow: hidden;
-}
-
-.banner-inner {
-  position: relative;
-  z-index: 3;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10%;
-  color: white;
-  text-align: center;
 }
 
 
