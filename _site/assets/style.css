@@ -506,11 +506,11 @@ footer .logo {
   }
 
   .banner-responsive {
-    background-image: url('/images/buddha-ventura-9.jpg';
+    background-image: url('/images/buddha-ventura-9.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     overflow:hidden;
   }
 
