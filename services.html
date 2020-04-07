@@ -8,6 +8,7 @@ services:
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     image_path: /images/buddha-ventura-1.jpg
+    url:
   - title: Photography
     description: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -15,6 +16,7 @@ services:
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     image_path: /images/buddha-ventura-2.jpg
+    url:
   - title: Eco-Sustainable Consulting
     description: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -22,6 +24,7 @@ services:
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     image_path: /images/buddha-ventura-5.jpg
+    url:
 team:
   - image_path: /images/MrBeanII.jpg
     name: Bean
@@ -38,7 +41,7 @@ team:
   {% for service in page.services %}
 
   <div class="max-1200 padded-2 clickable-box">
-  <a href="portfolio" class="clickable-service">
+  <a href="{{service.url}}" class="clickable-service">
     <div class="grid-center light-bg {% cycle 'odd', 'even' %}">
       <div class="col-6_sm-12 bg-image tall-50 editable" style="background-image:url('{{service.image_path}}')">
       </div>
