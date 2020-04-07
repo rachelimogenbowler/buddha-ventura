@@ -16,7 +16,7 @@ featured-image_path:
     <!-- add a class of flex-flip to the grid if you want it to alternate left and right  -->
     <div class="grid padded-2">
       <div class="col-5_sm-12 grid">
-        <div class="bg-image col-12" style="background-image:url('{{post.image_path}}')"></div>
+        <div class="bg-image col-12" style="background-image:url('{{post.image_path}}'); background-position: {{post.image_position}};"></div>
       </div>
       <div class="col-7_sm-12-middle padded">
         <h2> {{post.title}} </h2>
@@ -31,6 +31,7 @@ featured-image_path:
     </div>
 
   </div>
+  
   <div class="centered">
     <!-- This links to the archive of blog posts -->
     <a href="/archive" class="button"> See More Posts</a>

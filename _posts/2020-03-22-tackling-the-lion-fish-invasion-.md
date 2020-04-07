@@ -8,6 +8,7 @@ description: >-
 meta-description: Barbados Ecotourism
 meta-keywords: 'travel, sustainability, Barbados, ecotourism, lion fish,'
 image_path: /uploads/lion-fish-display.jpg
+image_position: middle;
 categories:
   - travel
   - sustainability

@@ -8,6 +8,7 @@ description: >-
 meta-description: freediving
 meta-keywords: 'travel, sustainability, Barbados, ecotourism, lion fish,'
 image_path: /uploads/freediving-display.jpg
+image_position: 50% 90%;
 categories:
   - travel
   - sustainability

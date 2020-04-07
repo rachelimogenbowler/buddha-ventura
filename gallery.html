@@ -1,40 +1,38 @@
 ---
 layout: default
+gallery:
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
+  - image_path: /images/mountain.jpg
+    alt-text: test 123
 ---
 
 <!-------- Photography Gallery --------->
 
 <section class="padded centered">
 
-  <h2> Photography Gallery </h2>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <div class="editable padded-bottom-2">
+    <h2> Photography Gallery </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  </div>
 
     <div class="popup-gallery masonry">
 
-      <a class="item" href="/images/mountain.jpg" title="this is where you write the caption">
-        <img src='/images/mountain.jpg'>
+      {% for image in page.gallery %}
+
+      <a class="item" href="{{image.image_path}}" title="{{image.alt-text}}">
+        <img src='{{image.image_path}}'>
       </a>
 
-      <a class="item" href="/images/adventure.jpg" title="this is where you write the caption">
-        <img src='/images/adventure.jpg'>
-      </a>
-      <a class="item" href="/images/pencils.jpg" title="this is where you write the caption">
-        <img src='/images/pencils.jpg'>
-      </a>
-      <a class="item" href="/images/cocktail.jpg" title="this is where you write the caption">
-        <img src='/images/cocktail.jpg'>
-      </a>
-      <a class="item" href="/images/person.png" title="this is where you write the caption">
-        <img src='/images/person.png'>
-      </a>
-      <a class="item" href="/images/laptop.jpg" title="this is where you write the caption">
-        <img src='/images/laptop.jpg'>
-      </a>
-
-      <a class="item" href="/images/lego.jpg" title="this is where you write the caption">
-        <img src='/images/lego.jpg'>
-      </a>
-
+      {% endfor %}
 
     </div>
 
