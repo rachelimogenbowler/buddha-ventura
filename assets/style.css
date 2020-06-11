@@ -188,7 +188,7 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   font-family: 'minerva-modern', sans-serif;
   font-weight: normal;
 }
