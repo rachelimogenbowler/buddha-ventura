@@ -430,7 +430,7 @@ header span {
   position: absolute;
   z-index: 4;
   background-color: #f9f9f9;
-  left: 10px;
+  left: -10px;
   padding: 5px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
 }
@@ -458,12 +458,14 @@ li {
 }
 
 header nav a,
-.inline a {
+.inline a,
+header nav .not-a-link {
   display: inline-block;
   padding: 0.5rem;
 }
 
-nav a:hover {
+nav a:hover,
+.not-a-link:hover {
   color: #996666;
 }
 
