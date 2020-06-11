@@ -5,7 +5,8 @@ permalink: /projects/lestoitsdumonde
 meta-description:
 meta-keywords:
 image_path: /uploads/toits-du-monde-display.jpg
-images:
+_comments:
+  permalink: the url, should be /projects/client-name
 ---
 
 # LES TOITS DU MONDE

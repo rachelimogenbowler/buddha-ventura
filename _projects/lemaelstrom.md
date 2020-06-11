@@ -5,6 +5,8 @@ permalink: /projects/lamaelstrom
 meta-description:
 meta-keywords: 'cabin, quebec, eco-luxe,'
 image_path: /uploads/dji-0810-edit-wide.jpg
+_comments:
+  permalink: the url, should be /projects/client-name
 ---
 
 # LE MAELSTRÖM&nbsp;

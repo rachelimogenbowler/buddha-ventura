@@ -2,10 +2,11 @@
 layout: project
 title: CLIFF HOUSE
 permalink: /projects/cliff-house
-description: Short lifestyle video for CBC network
 meta-description: Short lifestyle video for CBC network
 meta-keywords:
 image_path: /uploads/cliff-house-display.jpg
+_comments:
+  permalink: the url, should be /projects/client-name
 ---
 
 # CLIFF HOUSE
